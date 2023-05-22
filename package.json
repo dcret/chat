@@ -1,0 +1,30 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcret/chat.git"
+  },
+  "keywords": [
+    "CHAT",
+    "JS",
+    "NodeJS",
+    "WebSockets"
+  ],
+  "author": "Darius Cret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dcret/chat/issues"
+  },
+  "homepage": "https://github.com/dcret/chat#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
